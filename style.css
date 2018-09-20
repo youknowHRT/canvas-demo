@@ -1,0 +1,75 @@
+*{padding: 0;
+    margin: 0;
+}
+li,ol{
+    list-style: none;
+}
+body{
+    overflow: hidden;
+}
+canvas{
+    background:white;
+}
+.actions {
+    position: fixed;
+    top: 20px;
+    left: 15px;
+}
+.actions >svg{
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 5px;
+    transition: all 0.3s;
+}
+.actions>svg.active{
+    fill: red;
+    transform: scale(1.2);
+}
+.colors{
+    position: fixed;
+    top: 50px;
+    left: 16px;
+}
+.colors > li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 5px 0;
+}
+.colors >li.active{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid gold;
+    margin: 5px 0; 
+}
+
+.black{
+    background: black;
+}
+.red{
+    background: red;
+}
+.green{
+    background: green;
+}
+.blue{
+    background: blue;
+}
+.sizes{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.sizes>li{
+    margin: 10px;
+}
+.thin{
+    border-top: 5px solid black;
+    width: 20px;
+}
+.thick{
+    border-top: 10px solid black;
+    width: 20px;
+}
